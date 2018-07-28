@@ -14,9 +14,17 @@ class CreateCitiesTable extends Migration
     public function up()
     {
         Schema::create('cities', function (Blueprint $table) {
+            $table->engine = 'InnoDB';
             $table->increments('id');
+            $table->string('shortname',5)->nullable();
+            $table->string('name',100);
+            $table->integer('state_id')->unsigned();          
             $table->timestamps();
         });
+
+        Schema::table('cities', function($table) {
+            $table->foreign('state_id')->references('id')->on('states');  
+        });         
     }
 
     /**

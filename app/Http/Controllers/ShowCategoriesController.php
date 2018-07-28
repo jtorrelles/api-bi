@@ -3,14 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Presenters;
+use App\Models\ShowCategories;
 
-class PresentersController extends Controller
+class ShowCategoriesController extends Controller
 {
     //
 	public function index()
     {
-        return Presenters::all();
+        return ShowCategories::all();
     }
 
 	/**
@@ -21,6 +21,6 @@ class PresentersController extends Controller
      */
     public function show($id)
     {
-        return Presenters::find($id);
+        return ShowCategories::find($id);
     }  
 }
