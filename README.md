@@ -6,10 +6,11 @@ Esta aplicación esta desarrollada con Php 7.2 utilizando el framework laravel 5
 
 # Configuración de la Aplicación 
 
-##Requerimientos minimos:
-##PHP 7.2
-##Composer 1.6.5
-##MySqlServer version 5.7.22 o superior
+-Requerimientos minimos:
+>
+-PHP 7.2
+-Composer 1.6.5
+-MySqlServer version 5.7.22 o superior
 
 Se debe tener instalado composer 1.6.5, sigue las instrucciones de instalación en el siguiente link [Composer](https://getcomposer.org/download/)
 
