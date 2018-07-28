@@ -2,7 +2,7 @@
 
 Business Intelligence es un Aplicación diseñada para llevar el control de la información de empresas que se encargan de realizar producciones teatrales en cualquier parte del mundo.
 
-Esta aplicación esta desarrollada con Php 7.2 utilizando el framework laravel 5.6
+Esta aplicación esta desarrollada con PHP 7.2 utilizando el framework laravel 5.6
 
 # Configuración de la Aplicación 
 
@@ -21,19 +21,19 @@ Una vez clonado el proyecto, a traves de la consola de comandos cambia al direct
 
 >php artisan migrate
 
-#Popular la base de datos
+# Popular la base de datos
 Si deseas Popular la base de datos con ata de prueba ejecuta el siguiente comando:
 
 >php artisan db:seed
 
-#Levantar el servidor
+# Levantar el servidor
 
 >php artisan serve
 
-#Para verificar la respuesta de los servicios
-Abre una ventana del explorador (Preferiblemente Chrome) y escribe: 
-##
-(http://localhost:8000/api/{endpoint})
+**Para verificar la respuesta de los servicios
+Abre una ventana del explorador (Preferiblemente Chrome) y escribe:** 
+
+>(http://localhost:8000/api/{endpoint})
 
 Listado de Endpoints disponibles:
 * **/countries**
